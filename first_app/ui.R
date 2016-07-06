@@ -1,9 +1,12 @@
 library(shiny)
 
+# Define UI for miles per gallon application
 shinyUI(pageWithSidebar(
-  headerPanel("First Attempt"),
-  mainPanel("Did this work?"),
-  sidebarPanel("Now?")
   
-)
-)
+  # Application title
+  headerPanel("Miles Per Gallon"),
+  
+  sidebarPanel(),
+  
+  mainPanel()
+))
